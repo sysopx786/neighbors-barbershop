@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#1C1612"/>
+  <rect x="9" y="2.5" width="14" height="4.2" rx="1.6" fill="#A67C45"/>
+  <rect x="9" y="25.3" width="14" height="4.2" rx="1.6" fill="#A67C45"/>
+  <defs>
+    <clipPath id="pole">
+      <rect x="11" y="6" width="10" height="20"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#pole)">
+    <rect x="11" y="6" width="10" height="20" fill="#F3EEE4"/>
+    <polygon points="6,7 22,15 22,18.4 6,10.4" fill="#9A3B2F"/>
+    <polygon points="6,14.2 22,22.2 22,25.6 6,17.6" fill="#9A3B2F"/>
+    <polygon points="6,21.4 22,29.4 22,32.8 6,24.8" fill="#9A3B2F"/>
+  </g>
+</svg>
