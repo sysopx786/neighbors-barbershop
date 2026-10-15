@@ -18,6 +18,7 @@ The shop’s own domain (https://www.theneighborsbarber.com/) is separate and is
 - Reviews
 - Media
 - Press
+- Grand Opening (June 13, 2026)
 - Gallery
 - FAQ
 - Book

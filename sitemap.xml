@@ -462,4 +462,25 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/press"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/press"/>
   </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/grand-opening</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/grand-opening"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/grand-opening"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/grand-opening"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/grand-opening"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/es/grand-opening</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/grand-opening"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/grand-opening"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/grand-opening"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/grand-opening"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/pt/grand-opening</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/grand-opening"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/grand-opening"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/grand-opening"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/grand-opening"/>
+  </url>
 </urlset>
