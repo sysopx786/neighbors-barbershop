@@ -420,4 +420,46 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/future"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/future"/>
   </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/media</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/media"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/media"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/media"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/media"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/es/media</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/media"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/media"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/media"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/media"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/pt/media</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/media"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/media"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/media"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/media"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/press</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/press"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/es/press</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/press"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/pt/press</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/press"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/press"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/press"/>
+  </url>
 </urlset>
