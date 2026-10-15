@@ -2,6 +2,11 @@
 
 Built with Mujtaba Website Development Standards (MWDS).
 
+## Status
+- All pages complete and pushed to `main`.
+- SVG placeholders in `/images/` so the site renders without broken images.
+- Real photos still need to be uploaded manually (GitHub tool cannot push binary files).
+
 ## Positioning
 A neighborhood barbershop in Spring City that brings traditional barbershop and real community back to Main Street — clean cuts, sharp beard work, and a place where you’re welcome even if you’re not getting a haircut.
 
@@ -17,15 +22,16 @@ See RESEARCH.md. Address, phone, hours, owner, services/prices, booking URL, and
 ## Files
 - Multi-page static HTML/CSS/JS (GitHub Pages ready).
 - Pages: Home, Services, Gallery, Reviews, FAQ, Contact, Privacy.
-- Images in /images/ (real + a few AI-labeled).
+- Images in `/images/` (SVG placeholders for now).
 - Booking links point to the Square Appointments URL provided.
 
-## How to use
-1. Review and replace any placeholder or AI images with real cuts and shop photos.
-2. Confirm prices, hours, and policies with the owner.
-3. Deploy the folder to the domain (theneighborsbarber.com) or a host of choice.
-4. Submit sitemap in Google Search Console.
-5. Link from Google Business Profile and Instagram bio.
+## How to finish
+1. Upload real photos into `/images/` (Justin Owner, shop shots, cuts).
+2. Update `gallery.html` image `src` paths to match the uploaded filenames.
+3. Enable GitHub Pages: Settings → Pages → Deploy from branch `main` / root.
+4. Public URL will be: https://sysopx786.github.io/neighbors-barbershop/
+5. Point the domain (theneighborsbarber.com) at the Pages URL when ready.
+6. Submit sitemap in Google Search Console.
 
 ## Release notes
-Source files created. Not live-deployed in this step. Manual checks recommended on phone and desktop.
+Text content complete. Placeholders in place so the site is viewable. Real images and Pages enablement remain.
