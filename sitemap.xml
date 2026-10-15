@@ -378,5 +378,46 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/services/standard"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/services/standard"/>
   </url>
-  <url><loc>https://sysopx786.github.io/neighbors-barbershop/future/</loc><priority>0.7</priority></url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/gallery"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/gallery"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/gallery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/gallery"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/es/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/gallery"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/gallery"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/gallery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/gallery"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/pt/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/gallery"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/gallery"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/gallery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/gallery"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/future</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/future"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/future"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/future"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/future"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/es/future</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/future"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/future"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/future"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/future"/>
+  </url>
+  <url>
+    <loc>https://www.theneighborsbarber.com/pt/future</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/future"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/future"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/future"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/future"/>
+  </url>
 </urlset>

@@ -16,6 +16,7 @@ The shop’s own domain (https://www.theneighborsbarber.com/) is separate and is
 - About (shop story + staff: Justin Kyle, CJ Bono, Rupert, Karisa, Rocco)
 - Services (with individual service pages)
 - Reviews
+- Gallery
 - FAQ
 - Book
 - Tips
