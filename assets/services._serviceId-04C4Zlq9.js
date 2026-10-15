@@ -4,8 +4,8 @@ function NB(m){const q=NB_COPY[m]||NB_COPY.en;return (0,p.jsxs)("section",{class
 (0,p.jsx)("h2",{children:q.title}),
 (0,p.jsx)("p",{className:"nb-demo-description",children:q.instructions}),
 (0,p.jsxs)("div",{className:"nb-compare",style:{"--nb-split":"50%"},children:[
-(0,p.jsx)("img",{className:"nb-compare-image",src:"/neighbors-barbershop/photos/traditional-before-ai.jpg",alt:q.altBefore,width:1120,height:836,loading:"lazy"}),
-(0,p.jsx)("img",{className:"nb-compare-image nb-compare-after",src:"/neighbors-barbershop/photos/traditional-after-ai.jpg",alt:q.altAfter,width:1120,height:836,loading:"lazy"}),
+(0,p.jsx)("img",{className:"nb-compare-image",src:"/neighbors-barbershop/photos/traditional-after-ai.jpg",alt:q.altBefore,width:1120,height:836,loading:"lazy"}),
+(0,p.jsx)("img",{className:"nb-compare-image nb-compare-after",src:"/neighbors-barbershop/photos/traditional-before-ai.jpg",alt:q.altAfter,width:1120,height:836,loading:"lazy"}),
 (0,p.jsx)("span",{className:"nb-compare-label nb-compare-label--before","aria-hidden":"true",children:q.before}),
 (0,p.jsx)("span",{className:"nb-compare-label nb-compare-label--after","aria-hidden":"true",children:q.after}),
 (0,p.jsx)("div",{className:"nb-compare-divider","aria-hidden":"true"}),
