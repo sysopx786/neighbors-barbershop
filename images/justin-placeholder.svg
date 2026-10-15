@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
-  <rect width="400" height="500" fill="#1C1A18"/>
-  <circle cx="200" cy="180" r="80" fill="none" stroke="#C8963E" stroke-width="3"/>
-  <text x="200" y="190" text-anchor="middle" fill="#F5F1EA" font-family="system-ui,sans-serif" font-size="16">Justin</text>
-  <text x="200" y="280" text-anchor="middle" fill="#C8963E" font-family="system-ui,sans-serif" font-size="20" font-weight="600">Owner</text>
-  <text x="200" y="320" text-anchor="middle" fill="#A39E96" font-family="system-ui,sans-serif" font-size="14">Photo coming soon</text>
-</svg>
