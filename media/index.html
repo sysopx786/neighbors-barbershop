@@ -36,9 +36,25 @@
         <a class="inline-flex min-h-11 items-center rounded-full bg-brick px-5 text-sm font-medium text-paper-2" href="/neighbors-barbershop/book">Book a chair</a>
       </nav>
       <div class="flex items-center gap-2 lg:hidden">
+        <button type="button" class="inline-flex size-11 items-center justify-center rounded-full text-ink" aria-expanded="false" aria-controls="mobile-nav" id="menu-btn" onclick="document.getElementById('mobile-nav').classList.toggle('hidden'); this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='false'?'true':'false')">
+          <span class="sr-only">Open menu</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><path d="M4 18h16"/><path d="M4 6h16"/></svg>
+        </button>
         <a class="inline-flex min-h-11 items-center rounded-full bg-brick px-4 text-sm font-medium text-paper-2" href="/neighbors-barbershop/book">Book</a>
       </div>
     </div>
+    <nav id="mobile-nav" class="hidden border-t border-line bg-paper px-5 py-4 lg:hidden" aria-label="Mobile">
+      <a class="block py-2 text-sm font-medium" href="/neighbors-barbershop/about">The shop</a>
+      <a class="block py-2 text-sm font-medium" href="/neighbors-barbershop/services">Services</a>
+      <a class="block py-2 text-sm font-medium" href="/neighbors-barbershop/gallery">Gallery</a>
+      <a class="block py-2 text-sm font-medium" href="/neighbors-barbershop/reviews">Reviews</a>
+      <a class="block py-2 text-sm font-medium" href="/neighbors-barbershop/media">Media</a>
+      <a class="block py-2 text-sm font-medium" href="/neighbors-barbershop/press">Press</a>
+      <a class="block py-2 text-sm font-medium" href="/neighbors-barbershop/tips">Tips</a>
+      <a class="block py-2 text-sm font-medium" href="/neighbors-barbershop/faq">FAQs</a>
+      <a class="block py-2 text-sm font-medium" href="/neighbors-barbershop/future">2040</a>
+      <a class="block py-2 text-sm font-medium" href="/neighbors-barbershop/#visit">Visit</a>
+    </nav>
   </header>
   <main id="main">
     <article class="mx-auto max-w-3xl px-5 py-14">
