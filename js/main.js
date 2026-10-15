@@ -104,4 +104,17 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   }
+
+  // Simple cookie notice (no non-essential cookies currently)
+  if (!localStorage.getItem("cookie-notice-dismissed")) {
+    const banner = document.createElement("div");
+    banner.id = "cookie-notice";
+    banner.style.cssText = "position:fixed;bottom:0;left:0;right:0;background:var(--surface);color:var(--text);padding:12px 16px;z-index:300;border-top:1px solid var(--line);font-size:14px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;";
+    banner.innerHTML = '<span>This site uses essential functionality and third-party services (Google Fonts/Maps, Square). See our <a href="cookies.html" style="color:var(--accent);">Cookie Policy</a>.</span><button id="cookie-dismiss" style="background:var(--accent);color:#121110;border:none;padding:8px 14px;min-height:40px;cursor:pointer;">Got it</button>';
+    document.body.appendChild(banner);
+    document.getElementById("cookie-dismiss").addEventListener("click", function () {
+      localStorage.setItem("cookie-notice-dismissed", "1");
+      banner.remove();
+    });
+  }
 });
