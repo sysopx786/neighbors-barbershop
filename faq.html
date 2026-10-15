@@ -43,6 +43,13 @@
       <div class="container">
         <h1>Before you sit down.</h1>
         <p>Forty questions on each service.</p>
+        <div class="faq-search" style="margin:20px 0 12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+          <label for="faq-search" style="position:absolute;left:-9999px;">Search all FAQs</label>
+          <input type="search" id="faq-search" placeholder="Search all questions…" aria-label="Search all FAQs" style="flex:1;min-width:200px;max-width:480px;padding:14px 16px;font-size:16px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--text);">
+          <button type="button" id="faq-search-btn" class="btn" style="min-height:48px;padding:0 20px;">Search</button>
+          <button type="button" id="faq-clear-btn" class="btn btn-secondary" style="min-height:48px;padding:0 16px;display:none;">Clear</button>
+        </div>
+        <p id="faq-no-results" style="display:none;margin:8px 0 16px;color:var(--text-muted);">No matching questions found. Try a different word or call us.</p>
         <nav aria-label="FAQ topics" style="display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 8px;">
           <a href="#traditional">Men’s Traditional</a> <a href="#skin-fade">Men’s Skin Fade</a> <a href="#kids">Kid’s Haircut (12 &amp; Under)</a> <a href="#traditional-beard">Traditional &amp; Beard</a> <a href="#fade-beard">Skin Fade &amp; Beard</a> <a href="#head-shave">Head Shave</a> <a href="#head-beard">Head &amp; Beard Shave</a> <a href="#beard">Beard Only</a> <a href="#wax">Ear, Nose Wax &amp; Eyebrow Sculpting</a> <a href="#standard">The Neighborhood Standard</a>
         </nav>

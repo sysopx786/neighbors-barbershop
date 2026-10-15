@@ -38,4 +38,70 @@ document.addEventListener("DOMContentLoaded", function () {
       document.body.appendChild(overlay);
     });
   });
+
+  // Reviews search/filter
+  const searchInput = document.getElementById("review-search");
+  const grid = document.getElementById("reviews-grid");
+  const noResults = document.getElementById("no-results");
+  if (searchInput && grid) {
+    const cards = Array.from(grid.querySelectorAll(".card"));
+    searchInput.addEventListener("input", function () {
+      const q = this.value.trim().toLowerCase();
+      let visible = 0;
+      cards.forEach(function (card) {
+        const text = card.textContent.toLowerCase();
+        const show = !q || text.includes(q);
+        card.style.display = show ? "" : "none";
+        if (show) visible++;
+      });
+      if (noResults) {
+        noResults.style.display = visible === 0 ? "block" : "none";
+      }
+    });
+  }
+
+  // FAQ search — single control filters the entire page
+  const faqSearch = document.getElementById("faq-search");
+  const faqBtn = document.getElementById("faq-search-btn");
+  const faqClear = document.getElementById("faq-clear-btn");
+  const faqNoResults = document.getElementById("faq-no-results");
+  if (faqSearch) {
+    const items = Array.from(document.querySelectorAll("main details"));
+    const sections = Array.from(document.querySelectorAll("main section[id]"));
+
+    function runFilter() {
+      const q = faqSearch.value.trim().toLowerCase();
+      let anyVisible = false;
+      items.forEach(function (item) {
+        const text = item.textContent.toLowerCase();
+        const show = !q || text.includes(q);
+        item.style.display = show ? "" : "none";
+        if (show) anyVisible = true;
+      });
+      sections.forEach(function (sec) {
+        const hasVisible = Array.from(sec.querySelectorAll("details")).some(function (d) {
+          return d.style.display !== "none";
+        });
+        sec.style.display = hasVisible ? "" : "none";
+      });
+      if (faqNoResults) {
+        faqNoResults.style.display = anyVisible || !q ? "none" : "block";
+      }
+      if (faqClear) {
+        faqClear.style.display = q ? "inline-block" : "none";
+      }
+    }
+
+    faqSearch.addEventListener("input", runFilter);
+    if (faqBtn) {
+      faqBtn.addEventListener("click", runFilter);
+    }
+    if (faqClear) {
+      faqClear.addEventListener("click", function () {
+        faqSearch.value = "";
+        runFilter();
+        faqSearch.focus();
+      });
+    }
+  }
 });
