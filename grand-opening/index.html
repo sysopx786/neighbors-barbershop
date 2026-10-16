@@ -6,19 +6,13 @@
   <meta name="theme-color" content="#1c1612">
   <title>Grand Opening | Neighbors Barbershop, Spring City, PA</title>
   <meta name="description" content="See the June 13, 2026 grand opening of Neighbors Barbershop in Spring City, PA: ribbon-cutting photos, the original event poster, and messages of thanks.">
-  <link rel="canonical" href="https://www.theneighborsbarber.com/grand-opening">
-  <link rel="alternate" hreflang="en" href="https://www.theneighborsbarber.com/grand-opening">
-  <link rel="alternate" hreflang="es" href="https://www.theneighborsbarber.com/es/grand-opening">
-  <link rel="alternate" hreflang="pt-BR" href="https://www.theneighborsbarber.com/pt/grand-opening">
-  <link rel="alternate" hreflang="x-default" href="https://www.theneighborsbarber.com/grand-opening">
-  <meta property="og:type" content="article"><meta property="og:title" content="Grand Opening | Neighbors Barbershop, Spring City, PA">
-  <meta property="og:description" content="See the June 13, 2026 grand opening of Neighbors Barbershop in Spring City, PA: ribbon-cutting photos, the original event poster, and messages of thanks.">
-  <meta property="og:image" content="https://www.theneighborsbarber.com/photos/grand-opening-ribbon.jpg">
-  <link rel="icon" type="image/svg+xml" href="/neighbors-barbershop/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/neighbors-barbershop/assets/grand-opening.css">
+  <style>
+  .go-menu-btn { background:none; border:none; cursor:pointer; padding:8px; }
+  .go-mobile-nav { display:none; flex-direction:column; gap:12px; padding:16px; background:#f8f4ee; }
+  .go-mobile-nav:not([hidden]) { display:flex; }
+  .go-mobile-nav a { font-size:1.1rem; padding:8px 0; border-bottom:1px solid #e8e0d6; }
+  </style>
 </head>
 <body>
   <a class="go-skip" href="#main">Skip to content</a>
@@ -30,38 +24,35 @@
       <nav aria-label="Primary navigation" class="go-desktop-nav">
         <a href="/neighbors-barbershop/about">The shop</a><a href="/neighbors-barbershop/services">Services</a><a href="/neighbors-barbershop/gallery">Gallery</a><a href="/neighbors-barbershop/reviews">Reviews</a><a href="/neighbors-barbershop/media">Media</a><a href="/neighbors-barbershop/press">Press</a><a href="/neighbors-barbershop/grand-opening" aria-current="page">Grand Opening</a><a href="/neighbors-barbershop/book">Book a chair</a>
       </nav>
-      <details class="go-menu"><summary>Menu <span aria-hidden="true">☰</span></summary>
-        <nav aria-label="Menu"><a href="/neighbors-barbershop/about">The shop</a><a href="/neighbors-barbershop/services">Services</a><a href="/neighbors-barbershop/gallery">Gallery</a><a href="/neighbors-barbershop/reviews">Reviews</a><a href="/neighbors-barbershop/media">Media</a><a href="/neighbors-barbershop/press">Press</a><a href="/neighbors-barbershop/grand-opening" aria-current="page">Grand Opening</a><a href="/neighbors-barbershop/book">Book a chair</a></nav>
-      </details>
+      <button type="button" id="menu-btn" class="go-menu-btn" aria-expanded="false" aria-controls="mobile-nav"><span class="sr-only">Open menu</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16"/><path d="M4 18h16"/><path d="M4 6h16"/></svg></button>
     </div>
-    <div class="go-meta-wrap"><div class="go-meta-bar"><span>105 N. Main Street · Spring City, PA</span><nav aria-label="Language"><a lang="en" hreflang="en" href="/neighbors-barbershop/grand-opening" aria-current="page">EN</a><a lang="es" hreflang="es" href="/neighbors-barbershop/es/grand-opening">ES</a><a lang="pt-BR" hreflang="pt-BR" href="/neighbors-barbershop/pt/grand-opening">PT</a></nav></div></div>
+    <nav id="mobile-nav" class="go-mobile-nav" aria-label="Mobile" hidden>
+      <a href="/neighbors-barbershop/about">The shop</a>
+      <a href="/neighbors-barbershop/services">Services</a>
+      <a href="/neighbors-barbershop/gallery">Gallery</a>
+      <a href="/neighbors-barbershop/reviews">Reviews</a>
+      <a href="/neighbors-barbershop/media">Media</a>
+      <a href="/neighbors-barbershop/press">Press</a>
+      <a href="/neighbors-barbershop/grand-opening" aria-current="page">Grand Opening</a>
+      <a href="/neighbors-barbershop/book">Book a chair</a>
+    </nav>
+    <script>document.getElementById("menu-btn").onclick=function(){var n=document.getElementById("mobile-nav");var o=n.hidden;n.hidden=!o;this.setAttribute("aria-expanded",!o);};</script>
   </header>
   <main id="main">
-    <section class="go-hero go-shell">
-      <div class="go-hero-copy">
-        <p class="go-kicker">Spring City · June 13, 2026</p>
-        <h1>A new barbershop. A neighborhood celebration.</h1>
-        <p class="go-lead">On Saturday, June 13, 2026, Neighbors Barbershop celebrated its grand opening at 105 N. Main Street in Spring City, Pennsylvania. Friends, families, and neighbors came together to welcome a new place for fresh cuts, conversation, and community.</p>
-        <div class="go-facts"><span>✦ Saturday, June 13, 2026</span><span>⌖ 105 N. Main Street · Spring City, PA</span><span>◷ Festivities began around 11 AM</span></div>
-        <div class="go-actions"><a class="go-btn go-btn-primary" href="/neighbors-barbershop/book">Book a chair</a><a class="go-btn go-btn-outline" href="/neighbors-barbershop/about">Our story</a></div>
+    <section class="go-hero">
+      <p class="go-kicker">Spring City · June 13, 2026</p>
+      <h1>A new shop.<br>A neighborhood<br>celebration.</h1>
+      <p>On Saturday, June 13, 2026, Neighbors Barbershop celebrated its grand opening at 105 N. Main Street in Spring City. Friends, families, and neighbors came together to welcome a new place for fresh cuts, conversation, and community.</p>
+      <ul class="go-facts">
+        <li>◆ Saturday, June 13, 2026</li>
+        <li>◈ 105 N. Main Street · Spring City, PA</li>
+        <li>◉ Festivities began around 11 AM</li>
+      </ul>
+      <div class="go-actions">
+        <a class="go-btn go-btn-primary" href="/neighbors-barbershop/book">Book a chair</a>
+        <a class="go-btn go-btn-outline" href="/neighbors-barbershop/about">Our story</a>
       </div>
-      <figure class="go-hero-img"><img src="/neighbors-barbershop/photos/grand-opening-ribbon.jpg" width="1536" height="1154" alt="People celebrating outside Neighbors Barbershop with a ceremonial ribbon on June 13, 2026" fetchpriority="high"><figcaption>Opening-day ribbon-cutting celebration outside Neighbors Barbershop.</figcaption></figure>
     </section>
-    <section class="go-section go-shell go-feature">
-      <div class="go-feature-copy"><p class="go-kicker">The invitation</p><h2>It started with an invitation to Main Street.</h2><p>The original grand-opening poster invited everyone to stop in, meet the barbers, spend time together, and celebrate a new business on Main Street.</p><p>The event was announced for Saturday, June 13, beginning around 11 AM, with free hot dogs and hamburgers for visitors.</p><p class="go-footnote">Original announcement and opening-day photos</p></div>
-      <figure class="go-poster"><img src="/neighbors-barbershop/photos/grand-opening-poster.jpg" width="1228" height="1536" alt="Original Neighbors Barbershop grand opening poster for Saturday, June 13, 2026, featuring free hot dogs and hamburgers" loading="lazy"></figure>
-    </section>
-    <section class="go-section go-shell go-thanks">
-      <div class="go-card"><p class="go-kicker">From the shop</p><h2>“What a special day!”</h2><blockquote><p>What a special day! Thank you to everyone who showed up and supported us on the grand opening! It meant the world.</p><p>Neighbors Barbershop will be back open Tuesday morning ready to put some hair on the floor! Enjoy the weekend!</p></blockquote><p class="go-attribution">Neighbors Barbershop Instagram caption · June 13, 2026</p></div>
-      <figure class="go-post-capture"><img src="/neighbors-barbershop/photos/grand-opening-thank-you.jpg" width="1536" height="400" loading="lazy" alt="Screenshot of Neighbors Barbershop’s June 13 grand-opening thank-you message"></figure>
-    </section>
-    <section class="go-section go-shell go-community">
-      <p class="go-kicker">Around the neighborhood</p><h2>The community helped spread the word.</h2>
-      <blockquote>“Happening today! The official grand opening of Neighbor’s Barbershop starting around 11 AM. Join me in celebrating and congratulating them with the opening of his new shop!”</blockquote><p class="go-attribution">Facebook announcement · June 13, 2026</p>
-      <a href="https://www.facebook.com/share/p/18gMW5Y84G/" target="_blank" rel="noopener noreferrer" class="go-link">View the original Facebook post ↗</a>
-    </section>
-    <section class="go-ending"><div class="go-shell"><h2>The first day of a place for everyone.</h2><p>The grand opening marked the beginning of Neighbors Barbershop on Main Street. The doors opened for haircuts, but the idea was bigger: a bench to sit on, people to talk to, and a place where everyone in the neighborhood feels welcome.</p><div class="go-actions"><a class="go-btn go-btn-primary" href="/neighbors-barbershop/book">Book a chair</a><a class="go-btn go-btn-outline" href="/neighbors-barbershop/services">See the services</a></div></div></section>
   </main>
-  <footer class="go-footer"><div class="go-shell go-footer-grid"><div><strong class="go-footer-brand">Neighbors</strong><p>Precision cuts, good conversation, and a place for the people right around the corner.</p></div><div><h2>Visit us</h2><p>105 N. Main Street<br>Spring City, PA 19475</p><a href="tel:+12675667871">(267) 566-7871</a><br><a href="https://www.google.com/maps/search/?api=1&amp;query=Neighbors+Barbershop+105+N+Main+Street+Spring+City+PA+19475" target="_blank" rel="noopener noreferrer">Get directions</a></div><div><h2>Tuesday–Saturday · 9 AM–6 PM</h2><a href="mailto:theneighborsbarber@gmail.com">theneighborsbarber@gmail.com</a><br><a href="/neighbors-barbershop/book">Book a chair</a></div></div><div class="go-shell go-footer-bottom">Neighbors Barbershop · Est. 2026</div></footer>
 </body>
 </html>
