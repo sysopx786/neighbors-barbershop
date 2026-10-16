@@ -8,6 +8,12 @@
 <link rel="stylesheet" href="/neighbors-barbershop/assets/styles-CtboiJr5.css">
 <title>Neighbors Barbershop | Spring City, PA — Fades, Cuts & Beard Trims</title>
 <script src="/neighbors-barbershop/assets/grand-opening-enhancements.js" defer></script>
+<style>
+@keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:.4 } }
+.status-dot { width:8px; height:8px; border-radius:50%; display:inline-block; animation:pulse 1.6s ease-in-out infinite; }
+.status-open { background:#16a34a; }
+.status-closed { background:#dc2626; }
+</style>
 </head>
 <body>
 <div class="min-h-screen bg-paper text-ink">
@@ -35,7 +41,7 @@
 </div>
 <div class="border-t border-line">
 <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 px-5 py-2">
-<p class="flex items-center gap-2 text-sm"><span class="size-2 shrink-0 rounded-full bg-brick"></span><span>Open · 9:00 AM – 6:00 PM</span><span class="text-muted">· Walk-ins welcome</span></p>
+<p class="flex items-center gap-2 text-sm"><span class="status-dot status-closed" aria-hidden="true"></span><span>Closed · opens Friday · 9 AM</span></p>
 <nav aria-label="Language" class="flex items-center gap-1 text-sm">
 <a href="/neighbors-barbershop/" class="px-2 font-medium underline decoration-brass">EN</a>
 <a href="/neighbors-barbershop/es" class="px-2 text-muted">ES</a>
@@ -55,7 +61,7 @@
 <a class="inline-flex min-h-11 items-center justify-center rounded-full bg-brick px-5 text-sm font-medium text-paper-2" href="/neighbors-barbershop/book">Book a chair</a>
 <a href="tel:+12675667871" class="inline-flex min-h-11 items-center justify-center rounded-full px-5 text-sm font-medium ring-1 ring-line-strong">(267) 566-7871</a>
 </div>
-<p class="mt-6 flex flex-wrap items-center gap-2 text-sm text-muted"><span class="size-2 rounded-full bg-brick"></span><span>Open · 9:00 AM – 6:00 PM</span><span>·</span>Walk-ins welcome</p>
+<p class="mt-6 flex flex-wrap items-center gap-2 text-sm text-muted"><span class="status-dot status-closed"></span><span>Closed · opens Friday · 9 AM</span></p>
 </div>
 <figure class="lg:col-span-7">
 <img src="/neighbors-barbershop/photos/bench-group.jpg" alt="Justin Kyle, Rupert, Mayor Adam Alberico, Rocco, and CJ on the bench outside Neighbors Barbershop" class="aspect-[4/3] w-full rounded-lg object-cover shadow-soft" width="1736" height="1296">
