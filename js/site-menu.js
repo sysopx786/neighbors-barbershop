@@ -1,23 +1,24 @@
 (function() {
-  // Remove ALL existing mobile menus and menu buttons
-  document.querySelectorAll('#mobile-nav, #site-mobile-nav, .mobile-menu, .go-menu, details.go-menu').forEach(el => el.remove());
-  document.querySelectorAll('button[aria-controls], button#menu-btn, .hamburger, summary').forEach(el => {
-    if (el.textContent.includes('menu') || el.getAttribute('aria-label')?.includes('menu') || el.querySelector('svg')) {
-      el.style.display = 'none';
+  // Remove ALL old menus
+  document.querySelectorAll('#mobile-nav, #site-mobile-nav, .mobile-menu, .go-menu, details, nav[aria-label="Mobile"], nav[aria-label="Menu"]').forEach(el => el.remove());
+  document.querySelectorAll('button, summary').forEach(el => {
+    var t = (el.textContent || '').toLowerCase();
+    var a = (el.getAttribute('aria-label') || '').toLowerCase();
+    if (t.includes('menu') || a.includes('menu') || el.querySelector('svg')) {
+      el.remove();
     }
   });
   
-  // Create single consistent menu button
-  var header = document.querySelector('header');
-  if (!header) return;
+  // Create menu button in header or body
+  var container = document.querySelector('header') || document.body;
   var btn = document.createElement('button');
   btn.id = 'site-menu-btn';
+  btn.setAttribute('aria-label', 'Open menu');
   btn.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16"/><path d="M4 18h16"/><path d="M4 6h16"/></svg>';
-  btn.style.cssText = 'background:none;border:none;padding:10px;cursor:pointer;position:absolute;top:12px;right:16px;z-index:100;';
-  header.style.position = 'relative';
-  header.appendChild(btn);
+  btn.style.cssText = 'background:none;border:none;padding:10px;cursor:pointer;position:fixed;top:12px;right:16px;z-index:10000;';
+  container.appendChild(btn);
   
-  // Create single consistent menu panel
+  // Create menu panel
   var nav = document.createElement('nav');
   nav.id = 'site-mobile-nav';
   nav.style.cssText = 'display:none;position:fixed;inset:0;background:#f8f4ee;z-index:9999;padding:70px 24px 24px;overflow-y:auto;font-family:system-ui,sans-serif;';
